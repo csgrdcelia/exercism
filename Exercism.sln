@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HelloWorld", "fsharp\hello-world\HelloWorld.fsproj", "{B7BFC5B5-D09C-4FC5-80FA-342417E2D7BA}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TwoFer", "fsharp\two-fer\TwoFer.fsproj", "{EB2F109B-9154-4643-9F3A-DDDB943CBFF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B7BFC5B5-D09C-4FC5-80FA-342417E2D7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7BFC5B5-D09C-4FC5-80FA-342417E2D7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7BFC5B5-D09C-4FC5-80FA-342417E2D7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2F109B-9154-4643-9F3A-DDDB943CBFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2F109B-9154-4643-9F3A-DDDB943CBFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2F109B-9154-4643-9F3A-DDDB943CBFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2F109B-9154-4643-9F3A-DDDB943CBFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
