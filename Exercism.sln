@@ -6,6 +6,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TwoFer", "fsharp\two-fer\Tw
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Leap", "fsharp\leap\Leap.fsproj", "{D74D3214-9A3C-45F0-8095-E2E5C39A032C}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Accumulate", "fsharp\accumulate\Accumulate.fsproj", "{C582DEE6-3252-4C85-9B99-B9A897180668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D74D3214-9A3C-45F0-8095-E2E5C39A032C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74D3214-9A3C-45F0-8095-E2E5C39A032C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D74D3214-9A3C-45F0-8095-E2E5C39A032C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C582DEE6-3252-4C85-9B99-B9A897180668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C582DEE6-3252-4C85-9B99-B9A897180668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C582DEE6-3252-4C85-9B99-B9A897180668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C582DEE6-3252-4C85-9B99-B9A897180668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
