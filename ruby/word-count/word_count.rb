@@ -1,13 +1,11 @@
 class Phrase
 
     def initialize(phrase)
-        @phrase = phrase.split(/[^[[:word:]]']+/).reject { |c| c.empty? }
+        @phrase = phrase.downcase.split(/[\s,.!:?@$%^&]/).reject { |c| c.empty? }
     end
 
     def word_count
-        words = Hash.new(0)
-        @phrase.each { |word| words[word.downcase] += 1 }
-        words
+        @phrase.each_with_object(Hash.new(0)) {|word, counts| counts[word] += 1 }
     end
 
 end
