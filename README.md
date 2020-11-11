@@ -1,1 +1,3 @@
 # Exercism
+
+Learning some languages :)
